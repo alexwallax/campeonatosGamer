@@ -1,0 +1,148 @@
+/* 
+    Created on : 18/02/2018, 12:34:18
+    Author     : ALEXWALLACEARAUJODES
+    Version 0.1
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ********** Layout ********** */
+
+html, body {
+
+    height: 100%;
+    overflow: auto;
+}
+body {
+    background: url('../img/estadio.jpg'), linear-gradient(50deg,#ff4169, #7c26f8);
+    background-attachment: fixed;
+
+}
+#geral{
+/*   background: blanchedalmond; */
+        height: 100%;
+        overflow: auto;
+}
+.menu {
+    float: left;
+   
+    width: 100%;
+
+}
+
+
+
+
+
+/* ********** Barra de navegação ********** */
+.logo {
+    padding-top: 10px;
+    color: white;
+    display: block;
+}
+
+nav.navbar-transparente {
+   
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6) /* Transparencia */
+}
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+/* ********** Corpo ********** */
+.corpo {
+    padding: 100px;
+    display: table;
+    width: 100%;
+    text-align: center; 
+}
+h1 {
+    color: white;
+    font-weight: 900;
+    letter-spacing: -0.05em; /* para deixar o texto mais junto ou separado */
+    margin-bottom: 50px;   
+}
+h2 {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;      
+}
+
+#corpo-esquerdo{
+    float: left;
+
+    width: 33%;
+}
+
+#corpo-centro {
+    padding: 30px;
+    float: left;
+    width: 34%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#corpo-direito {
+    float: left;
+
+    width: 33%;
+}
+#barra-navegacao{
+    
+}
+
+/* ********** Rodape ********** */
+.rodape {
+    width: 100%;
+    height: 80px;
+    background: black;
+}
+
+/* medias queries */
+/* xs <768 */
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 13px;
+    }
+    h4 {
+        font-size: 10px;
+    }
+    #corpo-centro {
+        width: 150px;
+    }
+    .logo {
+        font-size: 15px;
+    }
+}
+
+/* sm */
+/*@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 35px;
+        align-content: center;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    #corpo-centro {
+        width: 300px;
+    }
+    .logo {
+        font-size: 15px;
+    }   
+    #corpo-centro {
+        align-content: center;
+    }
+    .menu {
+        align-content: center;
+    }
+}*/
