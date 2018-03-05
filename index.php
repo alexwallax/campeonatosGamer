@@ -44,7 +44,7 @@
             </nav> <!-- fim do navbar --> 
 
             <div class="corpo">
-                <div class="row">
+                <div class="row, texto_centro">
                     <div class="col-md-12">
                         <h1>CAMPEONATOS GAMES</h1>
                     </div>
@@ -53,35 +53,34 @@
 
                 <div class="menu">
                     <div class="row">
-                        <div id="corpo-direito" class="col-md-4">
-                         
-                        </div>
-                        <div id="corpo-centro" class="col-md-4">
+
+                      
+
+                        <div id="corpo-centro" class="col-md-12">
                             <label for="cadastro"><h2>Cadastre-se</h2></label><br />
                             <button type="submit" class="btn btn-primary"><h4>Cadastrar</h4></button><br /><br /><br />
                             <label for="entrar"><h2>Entrar</h2></label><br />
                             <button type="submit" class="btn btn-primary"><h4>Entrar</h4></button>
                         </div>
-                        <div id="corpo-esquerdo" class="col-md-4">
+
                         
-                        </div>
+                        
                     </div>
+                    
                 </div>
 
-
-
             </div> <!-- fim da div corpo --> 
-            
+
             <div class="rodape">
                 <div class="row">
                     <div class="col-md-12">
-                        
+
                     </div>
                 </div>
-                
+
             </div>
-            
-            
+
+
         </div><!-- fim da div geral --> 
     </body>
 </html>

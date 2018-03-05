@@ -13,23 +13,26 @@
 html, body {
 
     height: 100%;
-    overflow: auto;
+
 }
 body {
-    background: url('../img/estadio.jpg'), linear-gradient(50deg,#ff4169, #7c26f8);
-    background-attachment: fixed;
-
+    background: url('') no-repeat, linear-gradient(50deg,#ff1100, #7c2908); 
+    background-size: 100%;
+    border: 2px solid yellow;
 }
 #geral{
 /*   background: blanchedalmond; */
-        height: 100%;
-        overflow: auto;
+    border: 4px solid rosybrown;
+    height: 100%;
+    overflow: auto;
+}
+.container {
+    border: 4px solid salmon;
 }
 .menu {
     float: left;
    
     width: 100%;
-
 }
 
 
@@ -49,15 +52,29 @@ nav.navbar-transparente {
     background: rgba(0, 0, 0, 0.6) /* Transparencia */
 }
 .navbar-brand {
+    
     padding: 5px 15px;
+}
+.navbar-header {
+     border: 2px solid orange;
+}
+.texto_centro {
+    align-content: center;
+    border: 2px solid yellowgreen;
 }
 
 /* ********** Corpo ********** */
 .corpo {
-    padding: 100px;
+    border: 5px solid red;
+    padding: 80px;
     display: table;
     width: 100%;
     text-align: center; 
+    align-content: center;
+}
+.menu {
+    border: 2px solid pink;
+    align-content: center;
 }
 h1 {
     color: white;
@@ -72,22 +89,20 @@ h2 {
 }
 
 #corpo-esquerdo{
+    border: 2px solid blue;
     float: left;
-
     width: 33%;
 }
 
 #corpo-centro {
-    padding: 30px;
-    float: left;
-    width: 34%;
-    border: 2px solid white;
+    padding: 10px;
+    border: 3px solid white;
     border-radius: 20px;
 }
 
 #corpo-direito {
+    border: 2px solid blue;
     float: left;
-
     width: 33%;
 }
 #barra-navegacao{
@@ -119,10 +134,16 @@ h2 {
     .logo {
         font-size: 15px;
     }
+    
+#corpo-centro {
+
+    border: 2px solid white;
+    border-radius: 20px;
+}    
 }
 
 /* sm */
-/*@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     h1 {
         font-size: 35px;
         align-content: center;
@@ -145,4 +166,4 @@ h2 {
     .menu {
         align-content: center;
     }
-}*/
+}
